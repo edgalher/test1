@@ -1,35 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Clientes</title>
-	<!-- Compiled and minified CSS -->
+	<title>Clientes</title>	 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<head>
+
+	<header>
+		<!-- Barra de navegación -->
 		<nav>
-		    <div class="nav-wrapper teal">
-		      <a href="#" class="brand-logo">Logo</a>
-		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li><a href="clientes.html">Clientes</a></li>
-		        <li><a href="problemas.html">Problemas</a></li>
-		        <li><a href="inventario.html">Inventario</a></li>
-		        <li><a href="encuesta.html">Encuestas</a></li>
-		         <li><a href="vehiculos.html">Bitacora de Vehiculos</a></li>
-		      </ul>
-		    </div>
-		  </nav>
-	</head>
+	    <div class="nav-wrapper teal">
+	      <a href="#" class="brand-logo">Logo</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="clientes.html">Clientes</a></li>
+	        <li><a href="problemas.html">Problemas</a></li>
+	        <li><a href="servicios.html">Servicios</a></li>
+	        <li><a href="inventario.html">Inventario</a></li>
+	        <li><a href="encuesta.html">Encuestas</a></li>
+	        <li><a href="vehiculos.html">Bitacora de Vehiculos</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	</header>
+
 	<main>
 		<div class="container">
+			<!-- Titulos -->
 			<div class="row">
 				<h1>Clientes</h1>
 			</div>
+			<!-- Menu de opciones para Clientes -->
 			<div class="row">
 				<div class="col l6">
 					<a href="nuevoCliente.html">Agregar Cliente</a>
@@ -39,56 +46,56 @@
           <label for="buscar">Buscar</label>
         </div>
 			</div>
+			<!-- Tabla de Clientes -->
 			<div class="row">
 				<div class="col l12">
-					<table>
-			        <thead>
-			          <tr>
-			          	<th>No.</th>
-		              <th>Nombre</th>
-		              <th>Apellido Paterno</th>
-		              <th>Apellido Materno</th>
-		              <th>Domicilio</th>
-		              <th>Ciudad</th>
-		              <th>Estado</th>
-		              <th>Telefono</th>
+					<table>								        
+		        <thead>
+		          <tr>
+		          	<th>No.</th>
+	              <th>Nombre</th>
+	              <th>Apellido Paterno</th>
+	              <th>Apellido Materno</th>
+	              <th>Domicilio</th>
+	              <th>Ciudad</th>
+	              <th>Estado</th>
+	              <th>Telefono</th>
+		          </tr>
+		        </thead>
 
-			          </tr>
-			        </thead>
-
-			        <tbody>
-			          <tr>
-			            <td>1</td>
-			            <td>Juan</td>
-			            <td>Perez</td>
-			            <td>Lopez</td>
-			            <td>Calle Ninguno 23</td>
-			            <td>Hidalgo del Parral</td>
-			            <td>Chihuahua</td>
-									<td>1234567890</td>
-			          </tr>
-			          <tr>
-			            <td>2</td>
-			            <td>Francisco</td>
-			            <td>Juarez</td>
-			            <td>Martinez</td>
-			            <td>Fronteras 2</td>
-			            <td>Ciudad Juarez</td>
-			            <td>Chihuahua</td>
-			            <td>1234567890</td>
-			          </tr>
-			          <tr>
-			            <td>3</td>
-			            <td>Manuel</td>
-			            <td>Mendez</td>
-			            <td>Mendoza</td>
-			            <td>Alemania 45</td>
-			            <td>Hidalgo del Parral</td>
-			            <td>Chihuahua</td>
-			            <td>1234567890</td>
-			          </tr>
-			        </tbody>
-			     </table>
+		        <tbody>
+		          <tr>
+		            <td>1</td>
+		            <td>Juan</td>
+		            <td>Perez</td>
+		            <td>Lopez</td>
+		            <td>Calle Ninguno 23</td>
+		            <td>Hidalgo del Parral</td>
+		            <td>Chihuahua</td>
+								<td>1234567890</td>
+		          </tr>
+		          <tr>
+		            <td>2</td>
+		            <td>Francisco</td>
+		            <td>Juarez</td>
+		            <td>Martinez</td>
+		            <td>Fronteras 2</td>
+		            <td>Ciudad Juarez</td>
+		            <td>Chihuahua</td>
+		            <td>1234567890</td>
+		          </tr>
+		          <tr>
+		            <td>3</td>
+		            <td>Manuel</td>
+		            <td>Mendez</td>
+		            <td>Mendoza</td>
+		            <td>Alemania 45</td>
+		            <td>Hidalgo del Parral</td>
+		            <td>Chihuahua</td>
+		            <td>1234567890</td>
+		          </tr>
+		        </tbody>
+			    </table>
 				</div>
 			</div>
 		</div>
