@@ -16,22 +16,8 @@
 </head>
 
 <body>
-	<head>
-		<!-- Barra de navegación -->
-		<nav>
-	    <div class="nav-wrapper teal">
-	      <a href="#" class="brand-logo">Logo</a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="clientes.html">Clientes</a></li>
-	        <li><a href="problemas.html">Problemas</a></li>
-	        <li><a href="servicios.html">Servicios</a></li>
-	        <li><a href="inventario.html">Inventario</a></li>
-	        <li><a href="encuesta.html">Encuestas</a></li>
-	        <li><a href="vehiculos.html">Bitacora de Vehiculos</a></li>
-	      </ul>
-	    </div>
-	  </nav>
-	</head>
+	<!-- Header -->
+	<?php require 'header.php' ?>
 
 	<main>
 		<div class="container">
